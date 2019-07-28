@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": false,
+        "noUnusedLocals": false
+    },
+    "exclude": ["node_modules", "build", "dist", "**/__snapshots__/*"],
+    "extends": "tsconfig.json",
+    "files": ["src/index.tsx"],
+    "include": [],
+    "references": []
+}

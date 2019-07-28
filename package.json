@@ -1,0 +1,59 @@
+{
+    "name": "rescript-experiment",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "start": "rescripts start",
+        "build": "rescripts build",
+        "test": "rescripts test"
+    },
+    "rescripts": [
+        "env"
+    ],
+    "dependencies": {
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-scripts": "^3.0.1"
+    },
+    "devDependencies": {
+        "@babel/plugin-transform-classes": "^7.5.5",
+        "@babel/preset-env": "^7.5.5",
+        "@babel/preset-react": "^7.0.0",
+        "@rescripts/cli": "0.0.11",
+        "@rescripts/rescript-env": "0.0.10",
+        "@rescripts/rescript-use-stylelint-config": "0.0.5",
+        "@rescripts/utilities": "0.0.5",
+        "@types/react": "^16.8.23",
+        "@types/react-dom": "^16.8.5",
+        "@types/styled-components": "^4.1.18",
+        "babel-plugin-styled-components": "^1.10.6",
+        "prettier": "^1.18.2",
+        "rescript-use-babel-jest-config": "^1.0.0",
+        "rescript-worker-loader": "^1.0.3",
+        "styled-components": "^4.3.2",
+        "stylelint": "^10.1.0",
+        "stylelint-config-prettier": "^5.2.0",
+        "stylelint-config-recommended": "^2.2.0",
+        "stylelint-config-styled-components": "^0.1.1",
+        "stylelint-processor-styled-components": "^1.8.0",
+        "tslint": "^5.18.0",
+        "typescript": "^3.6.0-beta"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "author": "Derek Clair<derek@derekclair.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/basement-lab/experiment.rescripts.git"
+    }
+}

@@ -1,0 +1,14 @@
+const logConfig = config => {
+  console.log(config);
+  return config;
+};
+
+logConfig.isMiddleware = true;
+
+module.exports = [
+  logConfig /* DEVELOPMENT ONLY */,
+  ['use-babel-config', '.babelrc.js'],
+  ['use-stylelint-config', '.stylelintrc.js'],
+  // ['use-tslint-config', 'tslint.json'],
+  'worker-loader',
+];
