@@ -31,7 +31,7 @@
         "rescript-use-babel-jest-config": "^1.0.0",
         "rescript-worker-loader": "^1.0.3",
         "styled-components": "^4.3.2",
-        "stylelint": "^10.1.0",
+        "stylelint": "^15.10.1",
         "stylelint-config-prettier": "^5.2.0",
         "stylelint-config-recommended": "^2.2.0",
         "stylelint-config-styled-components": "^0.1.1",
